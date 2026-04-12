@@ -459,7 +459,7 @@ def scheduler():
 # MAIN
 # ═══════════════════════════════════════════════════════════════════════════════
 def main():
-    if "PASTE_YOUR" in OPENROUTER_KEY:
+    if not OPENROUTER_KEY or len(OPENROUTER_KEY) < 10:
         sys.exit("  Paste your OpenRouter API key at the top of the script.")
 
     print("=" * 55)
