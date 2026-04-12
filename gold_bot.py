@@ -13,7 +13,7 @@ from time import mktime
 # ═══════════════════════════════════════════════════════════════════════════════
 # CONFIG
 # ═══════════════════════════════════════════════════════════════════════════════
-OPENROUTER_KEY  = os.environ.get("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")
+OPENROUTER_KEY  = "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"
 TELEGRAM_TOKEN  = "8792606097:AAFB4i281pitGuOvC0W7_cELCSijQozNAwY"
 TELEGRAM_CHATID = "1308372460"
 V7_MACRO_SCORE  = 2.1
